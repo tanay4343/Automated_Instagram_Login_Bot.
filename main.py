@@ -32,6 +32,6 @@ class InstagramBot:
 
 if __name__ == "__main__":
     bot = InstagramBot()
-    bot.login("taxia.i", "demo@1234")
+    bot.login("username", "password")
     time.sleep(5)
     bot.handle_popups()
